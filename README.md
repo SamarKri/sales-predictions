@@ -1,24 +1,24 @@
 # Food-Sales-Predictions
 
-## Author : 
+## Author 
 Samar Krimi
 
-## Business Problem : 
+## Business Problem  
 A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
 ## Data Source : sales_predictions_2023.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
-## Data Dictionary :
+## Data Dictionary 
 
 ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/ba6a53c4-cb25-4ad0-862d-d31d02e3875c)
 
 
 
-## Cleaning and Exploring the data : 
+## Cleaning and Exploring the data 
 8523 rows and 12 columns
 
-## Explanatory Data Visualization :
+## Explanatory Data Visualization 
 
 - Histogram to view the distributions of various features 
 
@@ -49,10 +49,10 @@ Baking Goods & Soft Drinks are the least sold, may be retailer must change their
 The Item_MR trend seems very fluctuating over the year in which store was established. The the list price of the product increase between 2000 & 2004 years, it falls sharply in 2008 maybe due to the financial crisis. 
 Item_Outlet_Sales trend seems almost stable through these years but it falls very sharply in 1998, maybe some sales of certains products are out of stock or a particular store had an incident in this year.
 
-## Preprocessing for Machine Learning : 
+## Preprocessing for Machine Learning 
 Preventing data leakage
 
-## Models Evaluation and Results :
+## Models Evaluation and Results 
 
 ### Linear Regression Model :
 - This model performs poorly on the training set and testing set regarding R2 metric, this is a case of high bias (underfit). 
@@ -77,5 +77,5 @@ Item_Outlet_Sales can be improved and must be studied according to certain crite
 - Consider selling online and on social networks.
 - Changing the packaging and place in the supermarket.
 
-  ## Future Directions :
+  ## Future Directions 
   May be change model evaluation such as an improved Random Tree Model and have a better metric results.
