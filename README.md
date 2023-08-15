@@ -1,4 +1,4 @@
-![image](https://github.com/SamarKri/sales-predictions/assets/136517111/e88b8b17-0072-4517-b07b-9f598f1030cc)![image](https://github.com/SamarKri/sales-predictions/assets/136517111/f33272ef-c2de-410e-9d94-a1e570aa4dcc)![image](https://github.com/SamarKri/sales-predictions/assets/136517111/2a455758-7716-4d53-aeb3-cb2947c98c12)# Sales-Predictions
+# Sales-Predictions
 Food-Sales-Predictions
 Author : Samar Krimi
 Business Problem : A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
