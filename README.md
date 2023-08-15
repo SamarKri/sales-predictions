@@ -1,8 +1,6 @@
-![image](https://github.com/SamarKri/sales-predictions/assets/136517111/7959440c-965c-4e8c-87ee-36e4c95976ae)# Sales-Predictions
+## Food-Sales-Predictions
 
-Food-Sales-Predictions
-
-Author : 
+## Author : 
 Samar Krimi
 
 Business Problem : 
@@ -42,4 +40,25 @@ The Average outlet sales by product category show that : Seafood & Starchy Food 
 In second order are Fruits and Vegetables & Snack Foods which are the most consumed by most people and thirdly Dairy, Canned & Breads. 
 Baking Goods & Soft Drinks are the least sold, may be retailer must change their places in the store and I think that they are not recommended for people with certain diseases.
 
+- Trends by Line Graph
 
+![image](https://github.com/SamarKri/sales-predictions/assets/136517111/f2161419-c70f-4c91-a16b-cb310810e1db)
+
+The Item_MR trend seems very fluctuating over the year in which store was established. The the list price of the product increase between 2000 & 2004 years, it falls sharply in 2008 maybe due to the financial crisis. 
+Item_Outlet_Sales trend seems almost stable through these years but it falls very sharply in 1998, maybe some sales of certains products are out of stock or a particular store had an incident in this year.
+
+Models Evaluation and Results :
+
+Linear Regression Model :
+- This model performs poorly on the training set and testing set regarding R2 metric, this is a case of high bias (underfit). 
+- For RMSE metric, our model is incorrect by about 1,115 thousand dollars. 
+Regression Tree Model :
+- This model performs perfect on the training data regarding R2 metric. 
+- It performs poorly on the testing data, this is a case of high variance (overfitting). 
+- For RMSE metric, our model is incorrect by about 1,5 thousand dollars it penalizes more larger errors than Linear model. 
+Regression Tree Model Tuned :
+- The best hyperparameter is  for depth=5.
+- The R2 testing score become higher, it grows to 0.595 after tuning. 
+- The training (0.604) and test (0.595) results have moved closer to each other. 
+- The RMSE score is reduced, this model is incorrect by an average of 1,07 thousand dollars. 
+By tunning the decision tree model we have reduced overfitting and RMSE metric
