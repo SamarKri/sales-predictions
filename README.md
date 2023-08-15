@@ -1,13 +1,15 @@
-
+![image](https://github.com/SamarKri/sales-predictions/assets/136517111/9d44f9cc-3363-4a25-aa65-b286518a6ecb)
 # Sales-Predictions
 
-# Food-Sales-Predictions
+Food-Sales-Predictions
 
-# Author : Samar Krimi
+Author : 
+Samar Krimi
 
-# Business Problem : A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
+Business Problem : 
+A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
-# Data Source : sales_predictions_2023.csv
+Data Source : sales_predictions_2023.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
 Data Dictionary :
@@ -18,6 +20,7 @@ Data Dictionary :
 Cleaning and Exploring the data : 8523 rows and 12 columns
 
 Explanatory Data Visualization :
+
 - Histogram to view the distributions of various features in the dataset
 
   ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/e4e74db0-a1e7-40d6-a0a7-35a05b2034a2)
@@ -32,3 +35,7 @@ The Average outlet sales by product category show that :
 Seafood & Starchy Food are the best-selling they are rich in carbohydrates, nutrients, fiber and vitamins, they are a real source of energy for the body. They are ideal for physical and mental activities. 
 In second order are Fruits and Vegetables & Snack Foods which are the most consumed by most people and thirdly Dairy, Canned & Breads. 
 Baking Goods & Soft Drinks are the least sold, may be retailer must change their places in the store and I think that they are not recommended for people with certain diseases.
+
+- Trends by Bar Chart
+
+
