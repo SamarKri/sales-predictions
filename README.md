@@ -1,24 +1,25 @@
-## Food-Sales-Predictions
+![image](https://github.com/SamarKri/sales-predictions/assets/136517111/e3185491-92ad-4a06-bc6e-a46e0788b0a2)# Food-Sales-Predictions
 
 ## Author : 
 Samar Krimi
 
-Business Problem : 
+## Business Problem : 
 A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
-Data Source : sales_predictions_2023.csv
+## Data Source : sales_predictions_2023.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
-Data Dictionary :
+## Data Dictionary :
 
 ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/a7edf536-1174-4ce9-b46b-7e13beaf292c)
 
 
-Cleaning and Exploring the data : 8523 rows and 12 columns
+## Cleaning and Exploring the data : 
+8523 rows and 12 columns
 
-Explanatory Data Visualization :
+## Explanatory Data Visualization :
 
-- Histogram to view the distributions of various features in the dataset
+- Histogram to view the distributions of various features 
 
   ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/e4e74db0-a1e7-40d6-a0a7-35a05b2034a2)
 
@@ -47,18 +48,31 @@ Baking Goods & Soft Drinks are the least sold, may be retailer must change their
 The Item_MR trend seems very fluctuating over the year in which store was established. The the list price of the product increase between 2000 & 2004 years, it falls sharply in 2008 maybe due to the financial crisis. 
 Item_Outlet_Sales trend seems almost stable through these years but it falls very sharply in 1998, maybe some sales of certains products are out of stock or a particular store had an incident in this year.
 
-Models Evaluation and Results :
+## Preprocessing for Machine Learning : 
+Preventing data leakage
 
-Linear Regression Model :
+## Models Evaluation and Results :
+
+### Linear Regression Model :
 - This model performs poorly on the training set and testing set regarding R2 metric, this is a case of high bias (underfit). 
 - For RMSE metric, our model is incorrect by about 1,115 thousand dollars. 
-Regression Tree Model :
+### Regression Tree Model :
 - This model performs perfect on the training data regarding R2 metric. 
 - It performs poorly on the testing data, this is a case of high variance (overfitting). 
 - For RMSE metric, our model is incorrect by about 1,5 thousand dollars it penalizes more larger errors than Linear model. 
-Regression Tree Model Tuned :
+### Regression Tree Model Tuned :
 - The best hyperparameter is  for depth=5.
 - The R2 testing score become higher, it grows to 0.595 after tuning. 
 - The training (0.604) and test (0.595) results have moved closer to each other. 
 - The RMSE score is reduced, this model is incorrect by an average of 1,07 thousand dollars. 
 By tunning the decision tree model we have reduced overfitting and RMSE metric
+
+## Recommendations for stakeholders
+Item_Outlet_Sales can be improved and must be studied according to certain criteria :
+- Increasing best sellers like seafood.
+- Focused on fruits and vegetables beneficial to health.
+- Decrease the amount of unhealthy items like baking Goods & soft Drinks.
+- Have always available items sold at various stores to prevent to avoid stock shortage especially in period of health crisis or eventual war.
+
+  ## Future Directions :
+  May be change model evaluation such as an improved Random Tree Model and have a better metric results.
