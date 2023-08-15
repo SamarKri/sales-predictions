@@ -1,4 +1,4 @@
-![image](https://github.com/SamarKri/sales-predictions/assets/136517111/e3185491-92ad-4a06-bc6e-a46e0788b0a2)# Food-Sales-Predictions
+# Food-Sales-Predictions
 
 ## Author : 
 Samar Krimi
@@ -69,10 +69,12 @@ By tunning the decision tree model we have reduced overfitting and RMSE metric
 
 ## Recommendations for stakeholders
 Item_Outlet_Sales can be improved and must be studied according to certain criteria :
-- Increasing best sellers like seafood.
-- Focused on fruits and vegetables beneficial to health.
+- Increasing the amount of best sellers like seafood.
+- Focused on fruits and vegetables beneficial to health by making special offers.
 - Decrease the amount of unhealthy items like baking Goods & soft Drinks.
 - Have always available items sold at various stores to prevent to avoid stock shortage especially in period of health crisis or eventual war.
+- Consider selling online and on social networks.
+- Changing the packaging and place in the supermarket.
 
   ## Future Directions :
   May be change model evaluation such as an improved Random Tree Model and have a better metric results.
