@@ -1,13 +1,13 @@
 
 # Sales-Predictions
 
-Food-Sales-Predictions
+# Food-Sales-Predictions
 
-Author : Samar Krimi
+# Author : Samar Krimi
 
-Business Problem : A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
+# Business Problem : A sales prediction for food items sold at various stores to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
-Data Source : sales_predictions_2023.csv
+# Data Source : sales_predictions_2023.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
 Data Dictionary :
