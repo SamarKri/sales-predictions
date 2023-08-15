@@ -1,5 +1,4 @@
-![image](https://github.com/SamarKri/sales-predictions/assets/136517111/9d44f9cc-3363-4a25-aa65-b286518a6ecb)
-# Sales-Predictions
+![image](https://github.com/SamarKri/sales-predictions/assets/136517111/7959440c-965c-4e8c-87ee-36e4c95976ae)# Sales-Predictions
 
 Food-Sales-Predictions
 
@@ -31,11 +30,16 @@ The Item_Outlet_Sales Distribution dramatically decreases with greater prices
 
    ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/876d45d7-c47c-46b2-a10b-a5792cfe7377)
 
-The Average outlet sales by product category show that :
-Seafood & Starchy Food are the best-selling they are rich in carbohydrates, nutrients, fiber and vitamins, they are a real source of energy for the body. They are ideal for physical and mental activities. 
-In second order are Fruits and Vegetables & Snack Foods which are the most consumed by most people and thirdly Dairy, Canned & Breads. 
-Baking Goods & Soft Drinks are the least sold, may be retailer must change their places in the store and I think that they are not recommended for people with certain diseases.
+Perfect correlation equal to 1 for : Item_Weight, Item_Visibility , Item_MRP, Outlet_Establishment_Year & Item_Outlet_Sales.
+Moderate correlation equal to 0.57 for : Item_MRP with Item_Outlet_Sales
+Very low correlation for : The rest of Items and Outlet_Establishment_Year 
 
 - Trends by Bar Chart
+
+  ![image](https://github.com/SamarKri/sales-predictions/assets/136517111/254c3142-f5f6-4fc8-baa0-f5561764d60b)
+
+The Average outlet sales by product category show that : Seafood & Starchy Food are the best-selling they are rich in carbohydrates, nutrients, fiber and vitamins, they are a real source of energy for the body. They are ideal for physical and mental activities. 
+In second order are Fruits and Vegetables & Snack Foods which are the most consumed by most people and thirdly Dairy, Canned & Breads. 
+Baking Goods & Soft Drinks are the least sold, may be retailer must change their places in the store and I think that they are not recommended for people with certain diseases.
 
 
