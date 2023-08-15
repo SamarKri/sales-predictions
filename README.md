@@ -11,7 +11,8 @@ https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
 ## Data Dictionary :
 
-![image](https://github.com/SamarKri/sales-predictions/assets/136517111/a7edf536-1174-4ce9-b46b-7e13beaf292c)
+![image](https://github.com/SamarKri/sales-predictions/assets/136517111/ba6a53c4-cb25-4ad0-862d-d31d02e3875c)
+
 
 
 ## Cleaning and Exploring the data : 
